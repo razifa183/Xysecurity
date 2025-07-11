@@ -1,32 +1,20 @@
-# Xysecurity
-🛡️ XySecurity – Real-Time Packet Analyzer & Intrusion Detection System
+🛡️ XySecurity –An AI Powered Network Traffic Analyzer
 
-XySecurity is a Python-based network security tool that analyzes network traffic in real time, detects anomalies, and alerts users of potential intrusions or suspicious activity. Inspired by tools like Wireshark, XySecurity is lightweight, CLI-based, and customizable for use in academic, research, or enterprise environments.
-🎯 Objective
-To design a smart and fast packet sniffer and intrusion detection system (IDS) using Python that helps network admins:
-    Monitor traffic in real time
-    Detect suspicious IPs or patterns
-    Analyze packet-level metadata
-    Log and classify security threats
+🔍 XySecurity is an intelligent, real-time network traffic analyzer tool designed to detect anomalies and potential cyber threats using machine learning. Built for modern cybersecurity needs, it provides high-accuracy detection of suspicious activity in live packet streams and helps mitigate zero-day vulnerabilities through proactive threat prediction.
 
-⚙️ Features
+⚡ XySecurity offers:
 
-    🔍 Real-time packet sniffing using scapy
-    📦 Analyzes IP, TCP, UDP, ICMP, ARP, HTTP layers
-    🚨 Detects common attacks: port scanning, IP spoofing, abnormal traffic
-    📊 Logs packet info with timestamps and flags
-    🔐 Can be extended with signature-based or ML-based threat detection
+📡 Live Packet Monitoring: Continuously tracks network traffic (with features like protocol, IPs, flags, byte counts) and predicts whether each packet is Normal or Anomalous.
 
-🛠️ Tech Stack
+🧠 Machine Learning-Based Detection: Uses a trained Isolation Forest model to classify packets based on their behavior. The model was trained using real-world network traffic data and embedded into a live simulation environment.
 
-    Python
-    scapy, socket, os, 
-    matplotlib / seaborn (for traffic visualizations)
+🔐 Zero-Day Threat Identification: Detects abnormal behaviors not seen in past datasets, helping prevent new or previously unknown attacks.
 
-🔍 Packet Analysis Capabilities
-    Packet count by protocol
-    Source & destination IP tracking
-    Payload length, flags, TTL, etc.
-    Detect repeated SYN packets (possible SYN flood)
-    Monitor unusual traffic patterns
+📊 Interactive Reporting Dashboard: Provides visualizations including pie charts, anomaly trends, and downloadable logs for security auditing.
+
+📈 Data-Driven Threat Management: Helps cybersecurity teams take data-backend decisions to reduce false positives
+
+🔐 With XySecure, I combined real-time packet analysis and Isolation Forest ML models to detect anomalies and threats as they happen.
+💡 Blending cybersecurity with machine learning to make networks safer, smarter, and faster to defend.
+
 
